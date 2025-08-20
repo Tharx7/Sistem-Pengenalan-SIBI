@@ -205,3 +205,21 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Abaikan semua jenis dataset
+Datas/
+DatasRGB/
+*.zip
+
+# Abaikan semua model
+*.h5
+tfjs/
+
+# Abaikan folder sementara
+temp/
+test/
+
+# Aturan standar Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
